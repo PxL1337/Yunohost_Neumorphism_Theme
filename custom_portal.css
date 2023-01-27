@@ -1,0 +1,240 @@
+/*
+===============================================================================
+ This file contain extra CSS rules to customize the YunoHost user portal and
+ can be used to customize app tiles, buttons, etc...
+===============================================================================
+Modified by Sangokuss, 04/2019.
+*/
+
+body {
+   background-image: url("./fond.jpg");
+}
+
+#ynh-logo {
+  background-image : url("./Falcon.png");
+}
+
+.login-form .form-group {
+  border: 1px solid #bbb;
+}
+
+.user-container,
+.user-menu a,
+.link-btn,
+.footer a {
+   color: #fff;
+}
+
+.user-menu a:hover,
+.footer a:hover {
+   color: #whitegrey;
+}
+
+.form-text:disabled:hover {
+   background: #797b83;
+}
+
+.link-btn,
+.link-btn:hover {
+   background: none;
+}
+
+.listing-apps a:hover, .listing-apps a:focus {
+    left: -10px;
+    top: -10px;
+    box-shadow: none;
+    opacity: 0.9;
+}
+
+.listing-apps a {
+    display: block;
+    position: relative;
+    padding: 0.2em;
+    top: 0;
+    left: 0;
+    width: 2.7em;
+    height: 2.7em;
+    background: #666;
+    color: yellow;
+    font-size: 4em;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    opacity: 0.7;
+}
+
+.bluebg {
+    background: black !important;
+}
+.bluebg:hover:after,
+.bluebg:focus:after,
+.bluebg:hover:before,
+.bluebg:focus:before {
+    background: black !important;
+}
+
+.purplebg {
+    background: black !important;
+}
+.purplebg:hover:after,
+.purplebg:focus:after,
+.purplebg:hover:before,
+.purplebg:focus:before {
+    background: black !important;
+}
+
+.redbg {
+    background: black !important;
+}
+.redbg:hover:after,
+.redbg:focus:after,
+.redbg:hover:before,
+.redbg:focus:before {
+    background: black !important;
+}
+
+.orangebg {
+    background: black !important;
+}
+.orangebg:hover:after,
+.orangebg:focus:after,
+.orangebg:hover:before,
+.orangebg:focus:before {
+    background: black !important;
+}
+
+.greenbg {
+    background: black !important;
+}
+.greenbg:hover:after,
+.greenbg:focus:after,
+.greenbg:hover:before,
+.greenbg:focus:before {
+    background: black !important;
+}
+
+.darkbluebg {
+    background: black !important;
+}
+.darkbluebg:hover:after,
+.darkbluebg:focus:after,
+.darkbluebg:hover:before,
+.darkbluebg:focus:before {
+    background: black !important;
+}
+
+.lightbluebg {
+    background: black !important;
+}
+.lightbluebg:hover:after,
+.lightbluebg:focus:after,
+.lightbluebg:hover:before,
+.lightbluebg:focus:before {
+    background: black !important;
+}
+
+.yellowbg {
+    background: black !important;
+}
+.yellowbg:hover:after,
+.yellowbg:focus:after,
+.yellowbg:hover:before,
+.yellowbg:focus:before {
+    background: black !important;
+}
+
+
+.lightpinkbg {
+    background: black !important;
+}
+.lightpinkbg:hover:after,
+.lightpinkbg:focus:after,
+.lightpinkbg:hover:before,
+.lightpinkbg:focus:before {
+    background: black !important;
+}
+
+/* Following colors are not used yet */
+
+.pinkbg {
+    background: black !important;
+}
+.pinkbg:hover:after,
+.pinkbg:focus:after,
+.pinkbg:hover:before,
+.pinkbg:focus:before {
+    background: black !important;
+}
+
+.turquoisebg {
+    background: black !important;
+}
+.turquoisebg:hover:after,
+.turquoisebg:focus:after,
+.turquoisebg:hover:before,
+.turquoisebg:focus:before {
+    background: black !important;
+}
+.lightyellow {
+    background: black !important;
+}
+.lightyellow:hover:after,
+.lightyellow:focus:after,
+.lightyellow:hover:before,
+.lightyellow:focus:before {
+    background: black!important;
+}
+.lightgreen {
+    background: black !important;
+}
+.lightgreen:hover:after,
+.lightgreen:focus:after,
+.lightgreen:hover:before,
+.lightgreen:focus:before {
+    background: black !important;
+}
+.purpledarkbg {
+    background: black !important;
+}
+.purpledarkbg:hover:after,
+.purpledarkbg:focus:after,
+.purpledarkbg:hover:before,
+.purpledarkbg:focus:before {
+    background: black !important;
+}
+
+/* Personnalisation des blocs d'information de la page de connexion */
+
+.messages.info {
+    background: #000000;
+    opacity: 0.7;
+}
+
+.messages {
+    color: yellow;
+    margin-bottom: 1em;
+    text-align: center;
+    max-width: 21em;
+    margin: 2% auto 1em auto;
+    padding: 1.5em;
+}
+
+.classic-btn:hover, .classic-btn:focus {
+    background: black;
+}
+
+.classic-btn {
+    background: black;
+    opacity: 0.7;
+}
+
+.btn {
+    background: black;
+    display: inline-block;
+    padding: 0.5em 1em;
+    line-height: normal;
+    text-decoration: none;
+    color: yellow;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+}
