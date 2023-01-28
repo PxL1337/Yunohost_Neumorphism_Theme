@@ -348,7 +348,7 @@ body {
 }
 
 .login-form input[type="submit"] {
-  margin-bottom: 20px;
+  margin-top: 20px;
   background-color: rgb(230, 230, 230);
   color: rgb(170,170,170);
   border: rgb(255, 255, 255) 3px solid;
@@ -362,7 +362,7 @@ body {
 }
 
 .login-form input[type="submit"]:hover {
-  margin-bottom: 20px;
+  margin-top: 20px;
   background-color: rgb(230, 230, 230);
   color: rgb(170,170,170);
   border: rgb(255, 255, 255) 3px solid;
@@ -375,7 +375,7 @@ body {
 }
 
 .login-form input[type="submit"]:active {
-  margin-bottom: 20px;
+  margin-top: 20px;
   background-color: rgb(230, 230, 230);
   color: rgb(170,170,170);
   border: rgb(255, 255, 255) 3px solid;
