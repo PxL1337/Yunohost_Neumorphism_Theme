@@ -308,6 +308,45 @@ body {
   -webkit-transition: all 0.5s ease;
 }
 
+.messages.danger {
+  margin-bottom: 20px;
+  background-color: rgb(230, 230, 230);
+  color: rgb(150, 0, 0);
+  border: rgb(255, 255, 255) 3px solid;
+  border-radius: 50px 0px 50px 0px;
+  box-shadow: 15px 15px 20px 5px rgba(119, 119, 119, 0.3),
+              -15px -15px 20px 5px rgba(255, 255, 255, 0.8),
+              inset 5px 5px 20px 5px rgba(119, 119, 119, 0.3),
+              inset -15px -15px 20px 5px rgba(255, 255, 255, 0.8);
+  -webkit-transition: all 0.5s ease;
+}
+
+.messages.danger:hover {
+  margin-bottom: 20px;
+  background-color: rgb(230, 230, 230);
+  color: rgb(150,0,0);
+  border: rgb(255, 255, 255) 3px solid;
+  border-radius: 0px 50px 0px 50px;
+  box-shadow: 15px 15px 20px 5px rgba(119, 119, 119, 0.3),
+              -15px -15px 20px 5px rgba(255, 255, 255, 0.8),
+              inset 5px 5px 20px 5px rgba(119, 119, 119, 0.3),
+              inset -15px -15px 20px 5px rgba(255, 255, 255, 0.8);
+  -webkit-transition: all 0.5s ease;
+}
+
+.messages.danger:active {
+  margin-bottom: 20px;
+  background-color: rgb(230, 230, 230);
+  color: rgb(150,0,0);
+  border: rgb(255, 255, 255) 3px solid;
+  border-radius: 50px 50px 50px 50px;
+  box-shadow: 15px 15px 20px 5px rgba(119, 119, 119, 0.3),
+              -15px -15px 20px 5px rgba(255, 255, 255, 0.8),
+              inset 5px 5px 20px 5px rgba(119, 119, 119, 0.3),
+              inset -15px -15px 20px 5px rgba(255, 255, 255, 0.8);
+  -webkit-transition: all 0.5s ease;
+}
+
 .login-form input[type="submit"] {
   margin-bottom: 20px;
   background-color: rgb(230, 230, 230);
