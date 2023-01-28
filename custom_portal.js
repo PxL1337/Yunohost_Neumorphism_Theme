@@ -9,7 +9,7 @@
 ===============================================================================
 */
 
-var app_tile_colors = ['redbg','purpledarkbg','darkbluebg','orangebg','greenbg', 'yellowbg','lightpinkbg','pinkbg','turquoisebg','lightbluebg', 'bluebg'];
+/*var app_tile_colors = ['redbg','purpledarkbg','darkbluebg','orangebg','greenbg', 'yellowbg','lightpinkbg','pinkbg','turquoisebg','lightbluebg', 'bluebg'];
 
 function set_app_tile_style(el)
 {
@@ -26,6 +26,7 @@ init_portal = function()
     init_portal_original();
     Array.each(document.getElementsByClassName("app-tile"), set_app_tile_style);
 }
+*/
 
 /*
  * Monkey patching example to do custom stuff when loading inside an app
