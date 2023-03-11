@@ -9,7 +9,7 @@ Un style sobre disposant des fonctionnalités suivantes :
 - Tuiles animées
 - Ombres animées
 
-# ENG
+# EN
 Light style with this functionalities :
 
 - Animated Buttons
