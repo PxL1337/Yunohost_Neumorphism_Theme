@@ -139,7 +139,7 @@ body {
 
 /* Use a custom logo image */
 #ynh-logo {
-    background-image: url("pixdev.png");
+    background-image: url("./pixdev.png");
     z-index: 10;
     color:rgb(80, 80, 80);
 }
